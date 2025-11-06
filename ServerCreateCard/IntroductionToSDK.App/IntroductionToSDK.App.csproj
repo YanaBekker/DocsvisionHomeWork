@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Scrutor" Version="6.1.0" />
+		<PackageReference Include="DocsVision.Platform.ObjectManager" Version="6.1.478" />
+		<PackageReference Include="DocsVision.BackOffice.Cards.Web" Version="6.1.921" />
+		<PackageReference Include="DocsVision.Platform" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.CardLib" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.ObjectManager.Rest" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.ObjectModel" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.StorageServer" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.SystemCards.ObjectModel" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.SystemObjects" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.Xml.Schemas" Version="6.1.478" />
+		<PackageReference Include="DocsVision.Platform.WebClient" Version="6.1.921" />
+		<PackageReference Include="DocsVision.WebClient.Extensibility" Version="6.1.921" />
+		<PackageReference Include="DocsVision.WebFrame.WebClient" Version="6.1.921" />
+		<PackageReference Include="DocsVision.WebClientLibrary.ObjectModel" Version="6.1.921" />
+		<PackageReference Update="DocsVision.*" ExcludeAssets="contentFiles" IncludeAssets="compile" />
+	</ItemGroup>
+
+</Project>
