@@ -1,5 +1,4 @@
-﻿
-namespace IntroductionToSDK.App {
+﻿namespace IntroductionToSDK.App {
 	public static class TestData {
 
 		private static readonly Random random = new Random();

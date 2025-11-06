@@ -1,8 +1,9 @@
 ﻿using DocsVision.BackOffice.CardLib.CardDefs;
 using DocsVision.WebClient.Extensibility;
 using DocsVision.WebClientLibrary.ObjectModel.Services.EntityLifeCycle;
-using IntroductionToSDK.App.Services;
 using Microsoft.Extensions.DependencyInjection;
+using ServerExtension.CardLifeCycle;
+using ServerExtension.Services;
 using System;
 
 namespace ServerExtension

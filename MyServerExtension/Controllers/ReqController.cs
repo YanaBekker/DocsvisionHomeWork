@@ -1,13 +1,13 @@
-﻿using DocsVision.Platform.Data.Metadata.CardModel;
-using DocsVision.Platform.WebClient;
+﻿using DocsVision.Platform.WebClient;
 using DocsVision.Platform.WebClient.Models;
 using DocsVision.Platform.WebClient.Models.Generic;
-using IntroductionToSDK.App.Services;
 using Microsoft.AspNetCore.Mvc;
 using ServerExtension.Models;
+using ServerExtension.Services;
 using System;
 
-namespace IntroductionToSDK.App.Controllers {
+namespace ServerExtension.Controllers
+{
 
     public class ReqController : ControllerBase
 	{
@@ -17,7 +17,7 @@ namespace IntroductionToSDK.App.Controllers {
 		ICurrentObjectContextProvider contextProvider,
 		IReqService myService) {
 			this.contextProvider = contextProvider;
-			this.reqService = myService;
+            reqService = myService;
 		}
 		[HttpPost]
 		public CommonResponse<string> GetReqName([FromBody] Guid documentId) {

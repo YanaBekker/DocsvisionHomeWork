@@ -1,24 +1,13 @@
 ﻿using DocsVision.BackOffice.CardLib.CardDefs;
 using DocsVision.BackOffice.ObjectModel;
 using DocsVision.BackOffice.ObjectModel.Services;
-using DocsVision.BackOffice.WebClient.StaffDirectoryItems.Models;
-using DocsVision.BackOffice.WebClient.State;
-using DocsVision.Platform.ObjectModel;
-using DocsVision.Platform.ObjectModel.Search;
 using DocsVision.Platform.WebClient;
-using DocumentFormat.OpenXml.Bibliography;
-using DocumentFormat.OpenXml.EMMA;
-using DocumentFormat.OpenXml.InkML;
-using IntroductionToSDK.App.Controllers;
 using ServerExtension.Models;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using static DocsVision.BackOffice.WebClient.Log.BuiltInOperations;
-using static DocsVision.Platform.Data.Metadata.CardModel.WellKnownLogOperations.System;
 
-namespace IntroductionToSDK.App.Services {
+namespace ServerExtension.Services
+{
 	public class ReqService : IReqService {
         public IChangeCityInfoResponse ChangeCityInfo(SessionContext sessionContext, IChangeCityInfoRequest data)
         {

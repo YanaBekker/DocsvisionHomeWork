@@ -1,10 +1,9 @@
-﻿using DocsVision.BackOffice.WebClient.StaffDirectoryItems.Models;
-using DocsVision.Platform.WebClient;
-using IntroductionToSDK.App.Controllers;
+﻿using DocsVision.Platform.WebClient;
 using ServerExtension.Models;
 using System;
 
-namespace IntroductionToSDK.App.Services {
+namespace ServerExtension.Services
+{
 	public interface IReqService {
 		string GetReqName(SessionContext sessionContext, Guid cardId);
         bool ChangeDirPhoneInfo(SessionContext sessionContext, IChangeDirPhoneInfoRequest data);

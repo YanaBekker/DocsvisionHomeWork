@@ -1,20 +1,19 @@
 ﻿using DocsVision.Platform.WebClient;
 using DocsVision.WebClientLibrary.ObjectModel.Services.EntityLifeCycle;
 using DocsVision.WebClientLibrary.ObjectModel.Services.EntityLifeCycle.Options;
-using DocumentFormat.OpenXml.EMMA;
-using IntroductionToSDK.App.Services;
 using ServerExtension.Helpers;
+using ServerExtension.Services;
 using System;
 using System.Collections.Generic;
 
-namespace IntroductionToSDK.App.Services
+namespace ServerExtension.CardLifeCycle
 {
     public class MainLifeCycle : ICardLifeCycleEx
     {
         public MainLifeCycle(ICardLifeCycleEx baseLifeCycle, IReqService service)
         {
-            this.BaseLifeCycle = baseLifeCycle;
-            this.ReqService = service;
+            BaseLifeCycle = baseLifeCycle;
+            ReqService = service;
         }
         protected ICardLifeCycleEx BaseLifeCycle { get; }
         protected IReqService ReqService { get; }

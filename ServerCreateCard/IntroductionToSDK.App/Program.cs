@@ -4,9 +4,8 @@ using DocsVision.BackOffice.ObjectModel.Services;
 using DocsVision.Platform.ObjectManager;
 using DocsVision.Platform.ObjectModel;
 using DocsVision.Platform.ObjectModel.Search;
-using IntroductionToSDK.App;
 
-namespace IntroductionToSDK {
+namespace IntroductionToSDK.App {
 	internal class Program {
 		public static void Main(string[] args) {
 			var serverURL = System.Configuration.ConfigurationManager.AppSettings["DVUrl"];
@@ -30,7 +29,7 @@ namespace IntroductionToSDK {
 			}
 		}
 		public static ObjectContext CreateContext(UserSession session) {
-			return DocsVision.BackOffice.ObjectModel.ContextFactory.CreateContext(session);
+			return ContextFactory.CreateContext(session);
 		}
 		static void ChangeCardState(ObjectContext context, Document card, string targetState) {
 			if(targetState != "Project") {
