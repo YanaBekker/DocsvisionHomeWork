@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">sample-extension</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''">Sample extension for Docsvision WebClient.</PackageJsonDescription>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''"> rollup -c rollup.config.js &amp;&amp; gulp styles</PackageJsonScriptsBuild>
+    <PackageJsonScriptsBuildProd Condition="$(PackageJsonScriptsBuildProd) == ''">SET buildTarget=PROD&amp;&amp; npm run build</PackageJsonScriptsBuildProd>
+    <PackageJsonScriptsWatch Condition="$(PackageJsonScriptsWatch) == ''">concurrently "rollup -c rollup.config.js --watch" "gulp watch"</PackageJsonScriptsWatch>
+    <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''">Docsvision</PackageJsonAuthor>
+    <PackageJsonRepositoryType Condition="$(PackageJsonRepositoryType) == ''">git</PackageJsonRepositoryType>
+    <PackageJsonRepositoryUrl Condition="$(PackageJsonRepositoryUrl) == ''">https://github.com/DocsVision/WebClient-Samples.git</PackageJsonRepositoryUrl>
+    <PackageJsonLicense Condition="$(PackageJsonLicense) == ''">MIT</PackageJsonLicense>
+    <PackageJsonDevdependenciesDocsvisionWeb Condition="$(PackageJsonDevdependenciesDocsvisionWeb) == ''">^6.1.0</PackageJsonDevdependenciesDocsvisionWeb>
+    <PackageJsonDevdependenciesDocsvisionWebclient Condition="$(PackageJsonDevdependenciesDocsvisionWebclient) == ''">^6.1.0</PackageJsonDevdependenciesDocsvisionWebclient>
+    <PackageJsonDevdependenciesDocsvisionWebclientExtensionBuild Condition="$(PackageJsonDevdependenciesDocsvisionWebclientExtensionBuild) == ''">^6.1.0</PackageJsonDevdependenciesDocsvisionWebclientExtensionBuild>
+    <PackageJsonDevdependenciesConcurrently Condition="$(PackageJsonDevdependenciesConcurrently) == ''">^5.3.0</PackageJsonDevdependenciesConcurrently>
+  </PropertyGroup>
+</Project>
