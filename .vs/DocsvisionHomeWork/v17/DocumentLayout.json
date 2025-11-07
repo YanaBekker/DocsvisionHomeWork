@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "D:\\Desktop\\DocsvisionHomeWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\introductiontosdk.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\introductiontosdk.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\controllers\\reqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\controllers\\reqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\helpers\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\helpers\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\models\\ichangecityinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\models\\ichangecityinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\models\\ichangecityinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\models\\ichangecityinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\services\\reqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\services\\reqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\models\\ichangedirphoneinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\models\\ichangedirphoneinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\models\\ichangecityinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\models\\ichangecityinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\services\\ireqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\services\\ireqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\controllers\\reqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\controllers\\reqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\services\\reqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\services\\reqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|solutionrelative:myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\TemplateServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\templateserverextension.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,176 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestData.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
-              "RelativeDocumentMoniker": "ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
-              "RelativeToolTip": "ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:47:58.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
-              "RelativeDocumentMoniker": "ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
-              "RelativeToolTip": "ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:47:56.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLifeCycle.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
-              "RelativeToolTip": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:47:42.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReqController.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Controllers\\ReqController.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\Controllers\\ReqController.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Controllers\\ReqController.cs",
-              "RelativeToolTip": "MyServerExtension\\Controllers\\ReqController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:47:20.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Const.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Helpers\\Const.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\Helpers\\Const.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Helpers\\Const.cs",
-              "RelativeToolTip": "MyServerExtension\\Helpers\\Const.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:47:17.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IChangeDirPhoneInfoRequest.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
-              "RelativeToolTip": "MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:47:06.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IChangeCityInfoResponse.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeCityInfoResponse.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\Models\\IChangeCityInfoResponse.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeCityInfoResponse.cs",
-              "RelativeToolTip": "MyServerExtension\\Models\\IChangeCityInfoResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:46:59.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IChangeCityInfoRequest.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
-              "RelativeToolTip": "MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:46:56.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "ReqService.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Services\\ReqService.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\Services\\ReqService.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Services\\ReqService.cs",
               "RelativeToolTip": "MyServerExtension\\Services\\ReqService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwAYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:46:29.164Z",
+              "WhenOpened": "2025-11-07T10:20:32.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IReqService.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Services\\IReqService.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\Services\\IReqService.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Services\\IReqService.cs",
-              "RelativeToolTip": "MyServerExtension\\Services\\IReqService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IChangeDirPhoneInfoRequest.cs",
+              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
+              "RelativeDocumentMoniker": "MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
+              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
+              "RelativeToolTip": "MyServerExtension\\Models\\IChangeDirPhoneInfoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:46:16.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T10:20:27.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServerExtension.cs",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\ServerExtension.cs",
-              "RelativeDocumentMoniker": "MyServerExtension\\ServerExtension.cs",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\ServerExtension.cs",
-              "RelativeToolTip": "MyServerExtension\\ServerExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IChangeCityInfoRequest.cs",
+              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
+              "RelativeDocumentMoniker": "MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
+              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
+              "RelativeToolTip": "MyServerExtension\\Models\\IChangeCityInfoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:45:54.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T10:20:26.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TemplateServerExtension",
+              "DocumentIndex": 3,
+              "Title": "ReqController.cs",
+              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Controllers\\ReqController.cs",
+              "RelativeDocumentMoniker": "MyServerExtension\\Controllers\\ReqController.cs",
+              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Controllers\\ReqController.cs",
+              "RelativeToolTip": "MyServerExtension\\Controllers\\ReqController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T10:20:17.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLifeCycle.cs",
+              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
+              "RelativeDocumentMoniker": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
+              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
+              "RelativeToolTip": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T10:20:10.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TemplateServerExtension.csproj",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\TemplateServerExtension.csproj",
               "RelativeDocumentMoniker": "MyServerExtension\\TemplateServerExtension.csproj",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\TemplateServerExtension.csproj",
               "RelativeToolTip": "MyServerExtension\\TemplateServerExtension.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-06T13:45:47.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IntroductionToSDK.App",
-              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj",
-              "RelativeDocumentMoniker": "ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj",
-              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj",
-              "RelativeToolTip": "ServerCreateCard\\IntroductionToSDK.App\\IntroductionToSDK.App.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-06T13:45:41.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T10:20:04.375Z"
             }
           ]
         }

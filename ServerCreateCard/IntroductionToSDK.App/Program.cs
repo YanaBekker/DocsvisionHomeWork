@@ -4,8 +4,9 @@ using DocsVision.BackOffice.ObjectModel.Services;
 using DocsVision.Platform.ObjectManager;
 using DocsVision.Platform.ObjectModel;
 using DocsVision.Platform.ObjectModel.Search;
+using IntroductionToSDK.App;
 
-namespace IntroductionToSDK.App {
+namespace IntroductionToSDK {
 	internal class Program {
 		public static void Main(string[] args) {
 			var serverURL = System.Configuration.ConfigurationManager.AppSettings["DVUrl"];
@@ -32,13 +33,13 @@ namespace IntroductionToSDK.App {
 			return ContextFactory.CreateContext(session);
 		}
 		static void ChangeCardState(ObjectContext context, Document card, string targetState) {
-			if(targetState != "Project") {
+			if (targetState != "Project") {
 				IStateService stateSvc = context.GetService<IStateService>();
 				if (targetState == "UnderApproval") {
 					var branch = stateSvc.FindLineBranchesByStartState(card.SystemInfo.State)
 						.FirstOrDefault(s => s.EndState.DefaultName == targetState);
 					stateSvc.ChangeState(card, branch);
-				}else if (targetState == "OnRegistration") {
+				} else if (targetState == "OnRegistration") {
 					var branch = stateSvc.FindLineBranchesByStartState(card.SystemInfo.State)
 						.FirstOrDefault(s => s.EndState.DefaultName == "UnderApproval");
 					stateSvc.ChangeState(card, branch);
@@ -77,7 +78,7 @@ namespace IntroductionToSDK.App {
 			Console.WriteLine($"Создание {count} тестовых заявок на командировку...");
 
 			for (int i = 0; i < count; i++) {
-				Console.WriteLine($"Создание карточки {i+1}/{count}...");
+				Console.WriteLine($"Создание карточки {i + 1}/{count}...");
 
 				var businessTripRequest = docSvc.CreateDocument(null, businessTripKind);
 
@@ -95,7 +96,7 @@ namespace IntroductionToSDK.App {
 				newRow["NumberDays"] = TestData.GetRandomDays();
 				newRow["AmountTrips"] = TestData.GetRandomAmount();
 				newRow["ReasonTrip"] = TestData.GetRandomReason();
-				newRow["Tickets"] = TestData.GetRandomTicket(); 
+				newRow["Tickets"] = TestData.GetRandomTicket();
 
 				newRow["WhoRegistration"] = staffSvc.FindEmpoyeeByAccountName(TestData.GetRandomEmployeeAccountNames())?.GetObjectId();
 				newRow["Concordant"] = staffSvc.FindEmpoyeeByAccountName(TestData.GetRandomEmployeeAccountNames())?.GetObjectId();
@@ -116,7 +117,7 @@ namespace IntroductionToSDK.App {
 				string state = TestData.GetRandomStates();
 
 				ChangeCardState(context, businessTripRequest, state);
-			
+
 
 				context.AcceptChanges();
 				Console.WriteLine($"Создана заявка на командировку: {businessTripRequest.GetObjectId()}");
