@@ -9,6 +9,7 @@
       "ServerExtension/1.0.0": {
         "dependencies": {
           "DocsVision.BackOffice.ObjectModel": "6.1.269",
+          "DocsVision.Layout.WebClient": "6.1.716",
           "DocsVision.Platform.ObjectManager.Rest": "6.1.525",
           "DocsVision.Platform.WebClient": "6.1.716",
           "DocsVision.WebClient.Extensibility": "6.1.716",
@@ -39,6 +40,47 @@
       "Autofac/6.3.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "6.0.0"
+        }
+      },
+      "DocsVision.Approval.WebClient/6.1.716": {
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "DocsVision.ApprovalDesigner.ObjectModel": "6.1.105",
+          "DocsVision.BackOffice.ObjectModel": "6.1.269",
+          "DocsVision.BackOffice.WebClient": "6.1.716",
+          "DocsVision.PDFsharp": "6.1.0",
+          "DocsVision.Platform": "6.1.525",
+          "DocsVision.Platform.Authentication": "6.1.374",
+          "DocsVision.Platform.ObjectManager.Rest": "6.1.525",
+          "DocsVision.Platform.ObjectModel": "6.1.478",
+          "DocsVision.Platform.WebClient": "6.1.716",
+          "DocsVision.Workflow.Runtime": "6.1.113",
+          "DocsVision.Configuration": "6.1.130",
+          "DocsVision.LdapConnector": "6.1.82",
+          "HarfBuzzSharp.NativeAssets.Linux": "2.8.2.3",
+          "HtmlSanitizer": "8.0.723",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
+          "NLog": "5.1.1",
+          "Newtonsoft.Json": "13.0.3",
+          "QuestPDF": "2022.12.1",
+          "SixLabors.ImageSharp": "2.1.7",
+          "SkiaSharp.NativeAssets.Linux": "2.88.3",
+          "Svg.Skia": "0.5.18",
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Diagnostics.PerformanceCounter": "6.0.1",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Management": "7.0.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0"
         }
       },
       "DocsVision.ApprovalDesigner.ObjectModel/6.1.105": {
@@ -177,6 +219,56 @@
           "DocsVision.Platform.ObjectManager": "6.1.525",
           "DocsVision.Platform.ObjectModel": "6.1.478",
           "System.Data.SqlClient": "4.8.3"
+        }
+      },
+      "DocsVision.Layout.WebClient/6.1.716": {
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "DocsVision.Approval.WebClient": "6.1.716",
+          "DocsVision.ApprovalDesigner.ObjectModel": "6.1.105",
+          "DocsVision.BackOffice.ObjectModel": "6.1.269",
+          "DocsVision.BackOffice.WebClient": "6.1.716",
+          "DocsVision.PDFsharp": "6.1.0",
+          "DocsVision.Platform": "6.1.525",
+          "DocsVision.Platform.Authentication": "6.1.374",
+          "DocsVision.Platform.ObjectManager.Rest": "6.1.525",
+          "DocsVision.Platform.ObjectModel": "6.1.478",
+          "DocsVision.Platform.WebClient": "6.1.716",
+          "DocsVision.WebClient.Extensibility": "6.1.716",
+          "DocsVision.WebClientLibrary.ObjectModel": "6.1.716",
+          "DocsVision.WebFrame.WebClient": "6.1.716",
+          "DocsVision.Workflow.Runtime": "6.1.113",
+          "DocsVision.Configuration": "6.1.130",
+          "DocsVision.LdapConnector": "6.1.82",
+          "HarfBuzzSharp.NativeAssets.Linux": "2.8.2.3",
+          "HtmlSanitizer": "8.0.723",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.AspNetCore.Mvc.Razor": "2.2.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.2.0",
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyModel": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
+          "NLog": "5.1.1",
+          "Newtonsoft.Json": "13.0.3",
+          "QuestPDF": "2022.12.1",
+          "SixLabors.ImageSharp": "2.1.7",
+          "SkiaSharp.NativeAssets.Linux": "2.88.3",
+          "Svg.Skia": "0.5.18",
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Diagnostics.PerformanceCounter": "6.0.1",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Management": "7.0.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0"
         }
       },
       "DocsVision.LdapConnector/6.1.82": {
@@ -659,6 +751,16 @@
           "DocsVision.Configuration": "6.1.130",
           "DocsVision.Platform.SystemCards.ObjectModel": "6.1.478",
           "DocsVision.Workflow.Interfaces": "6.1.148",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "System.Security.Cryptography.ProtectedData": "6.0.0",
+          "System.ServiceModel.Primitives": "4.10.0"
+        }
+      },
+      "DocsVision.Workflow.Runtime/6.1.113": {
+        "dependencies": {
+          "DocsVision.Configuration": "6.1.130",
+          "DocsVision.Platform.SystemCards.ObjectModel": "6.1.478",
+          "DocsVision.Workflow.Objects": "6.1.148",
           "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
           "System.Security.Cryptography.ProtectedData": "6.0.0",
           "System.ServiceModel.Primitives": "4.10.0"
@@ -2225,6 +2327,13 @@
       "path": "autofac/6.3.0",
       "hashPath": "autofac.6.3.0.nupkg.sha512"
     },
+    "DocsVision.Approval.WebClient/6.1.716": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yahVna5bCM5ykN7uWvIefNuEvsduSo8xHuj7rJMQ7Fg1u6qxxGasd/YDiy/dxxBJYyB/MaAyjEGXPmphzY1cZQ==",
+      "path": "docsvision.approval.webclient/6.1.716",
+      "hashPath": "docsvision.approval.webclient.6.1.716.nupkg.sha512"
+    },
     "DocsVision.ApprovalDesigner.ObjectModel/6.1.105": {
       "type": "package",
       "serviceable": true,
@@ -2287,6 +2396,13 @@
       "sha512": "sha512-id258KOkHAE2CjIVj2l5XpbtKTpR18qv/lBeraFTJtw+gO52iOKq1kRVQVu92sgi21oIeORqdbW7bt/NcY6iUw==",
       "path": "docsvision.documentsmanagement.objectmodel/6.1.50",
       "hashPath": "docsvision.documentsmanagement.objectmodel.6.1.50.nupkg.sha512"
+    },
+    "DocsVision.Layout.WebClient/6.1.716": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jf+IRXbxZKWFtKWihccAHOkWmvLVFQKYDxhG70bFeGs8IQHPow7yYFJAy8fc5/9j27mR9h8vdJ6oQ7r5wGjYvQ==",
+      "path": "docsvision.layout.webclient/6.1.716",
+      "hashPath": "docsvision.layout.webclient.6.1.716.nupkg.sha512"
     },
     "DocsVision.LdapConnector/6.1.82": {
       "type": "package",
@@ -2448,6 +2564,13 @@
       "sha512": "sha512-me+2zb+iC2u1gfWEyYCc+VVZnIkoK6T3ozVkOcbOJJTvPbbsFiYuzZWbLpsgXSiDSA3MDunSdRDwkrfJinQwDg==",
       "path": "docsvision.workflow.objects/6.1.148",
       "hashPath": "docsvision.workflow.objects.6.1.148.nupkg.sha512"
+    },
+    "DocsVision.Workflow.Runtime/6.1.113": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FzKo8UVAN+6bDuVHxiFjfKXVzkC5tCktJBr0ip4bxdw/UN4cqKpEP3pe5N0CpvuKUpTgs/X829Sbd8Q4BGKikw==",
+      "path": "docsvision.workflow.runtime/6.1.113",
+      "hashPath": "docsvision.workflow.runtime.6.1.113.nupkg.sha512"
     },
     "DocumentFormat.OpenXml/2.16.0": {
       "type": "package",

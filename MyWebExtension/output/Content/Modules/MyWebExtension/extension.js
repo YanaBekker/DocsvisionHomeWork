@@ -122,46 +122,6 @@ define(['@docsvision/webclient/System/ExtensionManager', 'tslib', '@docsvision/w
                 });
             });
         };
-        RequestBusinessTripLogic.prototype.ChangeDirPhoneInfo = function (layout) {
-            return tslib.__awaiter(this, void 0, void 0, function () {
-                var commander, value;
-                return tslib.__generator(this, function (_a) {
-                    switch (_a.label) {
-                        case 0:
-                            commander = layout.controls.tryGet("commander");
-                            value = commander.value;
-                            return [4 /*yield*/, layout.getService($ReqService).ChangeDirPhoneInfo({ documentId: layout.cardInfo.id,
-                                    commanderId: value.id })];
-                        case 1:
-                            _a.sent();
-                            // Пыталась возвращать строку телефона и в какой либо виде данные о руководителе (id, типы и еще разные типы)
-                            // и меня значения тут  const phone = sender.layout.controls.tryGet<TextBox>("phone"); phone.params.value = то что вернули
-                            // но вот не смогал сотрудника вернуть
-                            layout.reloadFromServer();
-                            return [2 /*return*/];
-                    }
-                });
-            });
-        };
-        RequestBusinessTripLogic.prototype.ChangeCityInfo = function (layout) {
-            return tslib.__awaiter(this, void 0, void 0, function () {
-                var cityNode, day, result, sumTrip;
-                return tslib.__generator(this, function (_a) {
-                    switch (_a.label) {
-                        case 0:
-                            cityNode = layout.controls.tryGet("city");
-                            day = layout.controls.tryGet("dayCount");
-                            return [4 /*yield*/, layout.getService($ReqService).ChangeCityInfo({ documentId: layout.cardInfo.id,
-                                    daysCount: day.value, city: cityNode.value.name })];
-                        case 1:
-                            result = _a.sent();
-                            sumTrip = layout.controls.tryGet("sumTrip");
-                            sumTrip.params.value = result.amountMoney;
-                            return [2 /*return*/];
-                    }
-                });
-            });
-        };
         return RequestBusinessTripLogic;
     }());
 
@@ -240,31 +200,19 @@ define(['@docsvision/webclient/System/ExtensionManager', 'tslib', '@docsvision/w
             });
         });
     }
-    function ddRequestTrip_ChangeDirPhoneInfo_onDateChanged(sender) {
-        return tslib.__awaiter(this, void 0, void 0, function () {
-            return tslib.__generator(this, function (_a) {
-                new RequestBusinessTripLogic().ChangeDirPhoneInfo(sender.layout);
-                return [2 /*return*/];
-            });
-        });
-    }
-    function ddRequestTrip_ChangeCityInfo_onDateChanged(sender) {
-        return tslib.__awaiter(this, void 0, void 0, function () {
-            return tslib.__generator(this, function (_a) {
-                new RequestBusinessTripLogic().ChangeCityInfo(sender.layout);
-                return [2 /*return*/];
-            });
-        });
-    }
+    //export async function ddRequestTrip_ChangeDirPhoneInfo_onDateChanged(sender: CustomButton) {
+    //    new RequestBusinessTripLogic().ChangeDirPhoneInfo(sender.layout);
+    //}
+    //export async function ddRequestTrip_ChangeCityInfo_onDateChanged(sender: CustomButton) {
+    //    new RequestBusinessTripLogic().ChangeCityInfo(sender.layout);
+    //}
 
     var RequestBusinessTripEventHandles = /*#__PURE__*/Object.freeze({
         __proto__: null,
         ddRequestBusinessTrip_onSaveCard: ddRequestBusinessTrip_onSaveCard,
         ddRequestBusinessTrip_DateTimePicker_onDateChanged: ddRequestBusinessTrip_DateTimePicker_onDateChanged,
         ddRequestBusinessTrip_Button_onClick: ddRequestBusinessTrip_Button_onClick,
-        ddRequestTrip_action1_onClick: ddRequestTrip_action1_onClick,
-        ddRequestTrip_ChangeDirPhoneInfo_onDateChanged: ddRequestTrip_ChangeDirPhoneInfo_onDateChanged,
-        ddRequestTrip_ChangeCityInfo_onDateChanged: ddRequestTrip_ChangeCityInfo_onDateChanged
+        ddRequestTrip_action1_onClick: ddRequestTrip_action1_onClick
     });
 
     var ReqService = /** @class */ (function (_super) {

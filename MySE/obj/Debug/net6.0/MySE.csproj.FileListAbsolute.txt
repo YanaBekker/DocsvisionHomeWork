@@ -1,0 +1,17 @@
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.csproj.AssemblyReference.cache
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.AssemblyInfoInputs.cache
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.AssemblyInfo.cs
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.csproj.CoreCompileInputs.cache
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.sourcelink.json
+D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\MySE.deps.json
+D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\MySE.dll
+D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\MySE.pdb
+D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\DocsVision.Platform.StorageServer.Data.dll
+D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\DocsVision.Platform.StorageServer.Runtime.dll
+D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\DocsVision.Platform.StorageServer.dll
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.csproj.Up2Date
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.dll
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\refint\MySE.dll
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.pdb
+D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\ref\MySE.dll

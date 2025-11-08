@@ -119,29 +119,29 @@ export class RequestBusinessTripLogic {
         layout.getService($MessageBox).showInfo(response);
     }
 
-    async ChangeDirPhoneInfo(layout: Layout) {
-        const commander = layout.controls.tryGet<(StaffDirectoryItems)>("commander");
-        const value = commander.value as GenModels.EmployeeDataModel;
+    //async ChangeDirPhoneInfo(layout: Layout) {
+    //    const commander = layout.controls.tryGet<(StaffDirectoryItems)>("commander");
+    //    const value = commander.value as GenModels.EmployeeDataModel;
 
-        const result = await layout.getService($ReqService).ChangeDirPhoneInfo({documentId: layout.cardInfo.id,
-            commanderId: value.id});
+    //    const result = await layout.getService($ReqService).ChangeDirPhoneInfo({documentId: layout.cardInfo.id,
+    //        commanderId: value.id});
         
 
-        // Пыталась возвращать строку телефона и в какой либо виде данные о руководителе (id, типы и еще разные типы)
-        // и меня значения тут  const phone = sender.layout.controls.tryGet<TextBox>("phone"); phone.params.value = то что вернули
-        // но вот не смогал сотрудника вернуть
+    //    // Пыталась возвращать строку телефона и в какой либо виде данные о руководителе (id, типы и еще разные типы)
+    //    // и меня значения тут  const phone = sender.layout.controls.tryGet<TextBox>("phone"); phone.params.value = то что вернули
+    //    // но вот не смогал сотрудника вернуть
 
-        layout.reloadFromServer();
-    }
+    //    layout.reloadFromServer();
+    //}
 
-    async ChangeCityInfo(layout: Layout) {
-        const cityNode = layout.controls.tryGet<(DirectoryDesignerRow)>("city");
-        const day = layout.controls.tryGet<(NumberControl)>("dayCount");
+    //async ChangeCityInfo(layout: Layout) {
+    //    const cityNode = layout.controls.tryGet<(DirectoryDesignerRow)>("city");
+    //    const day = layout.controls.tryGet<(NumberControl)>("dayCount");
      
-        const result = await layout.getService($ReqService).ChangeCityInfo({documentId: layout.cardInfo.id,
-            daysCount: day.value, city: cityNode.value.name});
+    //    const result = await layout.getService($ReqService).ChangeCityInfo({documentId: layout.cardInfo.id,
+    //        daysCount: day.value, city: cityNode.value.name});
         
-        const sumTrip = layout.controls.tryGet<(NumberControl)>("sumTrip");
-        sumTrip.params.value = result.amountMoney;
-    }
+    //    const sumTrip = layout.controls.tryGet<(NumberControl)>("sumTrip");
+    //    sumTrip.params.value = result.amountMoney;
+    //}
 }

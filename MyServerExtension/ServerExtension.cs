@@ -1,8 +1,10 @@
 ﻿using DocsVision.BackOffice.CardLib.CardDefs;
+using DocsVision.Layout.WebClient.Services;
 using DocsVision.WebClient.Extensibility;
 using DocsVision.WebClientLibrary.ObjectModel.Services.EntityLifeCycle;
 using Microsoft.Extensions.DependencyInjection;
 using ServerExtension.CardLifeCycle;
+using ServerExtension.DataGridPlugins;
 using ServerExtension.Services;
 using System;
 
@@ -19,6 +21,7 @@ namespace ServerExtension
         public override void InitializeServiceCollection(IServiceCollection services)
         {
             services.AddSingleton<IReqService, ReqService>();
+            services.AddSingleton<IDataGridControlPlugin, MyPlugin>();
 
             services.Decorate<ICardLifeCycleEx>((original, serviceProvider) =>
             {

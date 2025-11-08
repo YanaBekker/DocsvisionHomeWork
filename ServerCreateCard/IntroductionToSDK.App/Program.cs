@@ -1,4 +1,5 @@
-﻿using DocsVision.BackOffice.CardLib.CardDefs;
+﻿using System;
+using DocsVision.BackOffice.CardLib.CardDefs;
 using DocsVision.BackOffice.ObjectModel;
 using DocsVision.BackOffice.ObjectModel.Services;
 using DocsVision.Platform.ObjectManager;
@@ -20,7 +21,7 @@ namespace IntroductionToSDK {
 			try {
 				session = sessionManager.CreateSession();
 				var context = CreateContext(session);
-				CreateMultipleBusinessTripRequests(session, context, 1);
+				CreateMultipleBusinessTripRequests(session, context, 100);
 				//CreateBusinessTripRequest(session, context);
 				Console.WriteLine("Press any key to continue...");
 				Console.ReadKey();
@@ -98,6 +99,14 @@ namespace IntroductionToSDK {
 				newRow["ReasonTrip"] = TestData.GetRandomReason();
 				newRow["Tickets"] = TestData.GetRandomTicket();
 
+				Random r = new Random();
+				DateTime startDate = DateTime.Now.AddDays(-r.Next(1, 365));
+				int tripDuration = r.Next(1, 31); 
+
+				newRow["Business_trip_dates_from"] = startDate;
+				newRow["Business_trip_dates_by"] = startDate.AddDays(tripDuration);
+
+
 				newRow["WhoRegistration"] = staffSvc.FindEmpoyeeByAccountName(TestData.GetRandomEmployeeAccountNames())?.GetObjectId();
 				newRow["Concordant"] = staffSvc.FindEmpoyeeByAccountName(TestData.GetRandomEmployeeAccountNames())?.GetObjectId();
 				newRow["WhoCommander"] = staffSvc.FindEmpoyeeByAccountName(TestData.GetRandomEmployeeAccountNames())?.GetObjectId();
@@ -110,8 +119,8 @@ namespace IntroductionToSDK {
 				sectionRows.Add(newRow);
 
 				context.AcceptChanges();
-				string filePath = "Домашнее задание 5.docx";
-				docSvc.AddMainFile(businessTripRequest, filePath);
+				//string filePath = "test.docx";
+				//docSvc.AddMainFile(businessTripRequest, filePath);
 				context.AcceptChanges();
 
 				string state = TestData.GetRandomStates();

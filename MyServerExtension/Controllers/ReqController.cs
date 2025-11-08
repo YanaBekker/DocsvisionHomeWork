@@ -32,12 +32,13 @@ namespace ServerExtension.Controllers
             var result = reqService.ChangeDirPhoneInfo(sessionContext, data);
             return CommonResponse.CreateSuccess(result);
         }
-        [HttpPost]
-        public CommonResponse<IChangeCityInfoResponse> ChangeCityInfo([FromBody] IChangeCityInfoRequest data)
-        {
-            var sessionContext = contextProvider.GetOrCreateCurrentSessionContext();
-            var result = reqService.ChangeCityInfo(sessionContext, data);
-            return CommonResponse.CreateSuccess(result);
-        }
+
+        //[HttpPost]
+        //public CommonResponse<IChangeCityInfoResponse> ChangeCityInfo([FromBody] IChangeCityInfoRequest data)
+        //{
+        //    var sessionContext = contextProvider.GetOrCreateCurrentSessionContext();
+        //    var result = reqService.ChangeCityInfo(sessionContext, data);
+        //    return CommonResponse.CreateSuccess(result);
+        //}
     }
 }

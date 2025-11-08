@@ -15,5 +15,6 @@
     <PackageJsonDevdependenciesDocsvisionWebclient Condition="$(PackageJsonDevdependenciesDocsvisionWebclient) == ''">^6.1.0</PackageJsonDevdependenciesDocsvisionWebclient>
     <PackageJsonDevdependenciesDocsvisionWebclientExtensionBuild Condition="$(PackageJsonDevdependenciesDocsvisionWebclientExtensionBuild) == ''">^6.1.0</PackageJsonDevdependenciesDocsvisionWebclientExtensionBuild>
     <PackageJsonDevdependenciesConcurrently Condition="$(PackageJsonDevdependenciesConcurrently) == ''">^5.3.0</PackageJsonDevdependenciesConcurrently>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^9.39.1</PackageJsonDevdependenciesEslint>
   </PropertyGroup>
 </Project>

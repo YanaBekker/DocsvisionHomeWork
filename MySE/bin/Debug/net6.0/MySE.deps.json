@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MySE/1.0.0": {
+        "dependencies": {
+          "DocsVision.Platform.StorageServer.Data": "6.0.0.0",
+          "DocsVision.Platform.StorageServer": "6.0.0.0",
+          "DocsVision.Platform.StorageServer.Runtime": "6.0.0.0"
+        },
+        "runtime": {
+          "MySE.dll": {}
+        }
+      },
+      "DocsVision.Platform.StorageServer.Data/6.0.0.0": {
+        "runtime": {
+          "DocsVision.Platform.StorageServer.Data.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.535.52272"
+          }
+        }
+      },
+      "DocsVision.Platform.StorageServer/6.0.0.0": {
+        "runtime": {
+          "DocsVision.Platform.StorageServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.531.26708"
+          }
+        }
+      },
+      "DocsVision.Platform.StorageServer.Runtime/6.0.0.0": {
+        "runtime": {
+          "DocsVision.Platform.StorageServer.Runtime.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.531.26708"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MySE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocsVision.Platform.StorageServer.Data/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocsVision.Platform.StorageServer/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocsVision.Platform.StorageServer.Runtime/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -52,12 +52,12 @@ export async function ddRequestTrip_action1_onClick(sender: CustomButton) {
     new RequestBusinessTripLogic().performAction(sender.layout);
 }
 
-export async function ddRequestTrip_ChangeDirPhoneInfo_onDateChanged(sender: CustomButton) {
-    new RequestBusinessTripLogic().ChangeDirPhoneInfo(sender.layout);
-}
+//export async function ddRequestTrip_ChangeDirPhoneInfo_onDateChanged(sender: CustomButton) {
+//    new RequestBusinessTripLogic().ChangeDirPhoneInfo(sender.layout);
+//}
 
-export async function ddRequestTrip_ChangeCityInfo_onDateChanged(sender: CustomButton) {
-    new RequestBusinessTripLogic().ChangeCityInfo(sender.layout);
-}
+//export async function ddRequestTrip_ChangeCityInfo_onDateChanged(sender: CustomButton) {
+//    new RequestBusinessTripLogic().ChangeCityInfo(sender.layout);
+//}
 
 

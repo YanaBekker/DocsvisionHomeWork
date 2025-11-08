@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<AssemblyOriginatorKeyFile>Sign.snk</AssemblyOriginatorKeyFile>
+		<SignAssembly>true</SignAssembly>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DocsVision.Platform.StorageServer">
+      <HintPath>..\..\DocsVision.Platform.StorageServer.dll</HintPath>
+    </Reference>
+    <Reference Include="DocsVision.Platform.StorageServer.Data">
+      <HintPath>..\..\DocsVision.Platform.StorageServer.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DocsVision.Platform.StorageServer.Runtime">
+      <HintPath>..\..\DocsVision.Platform.StorageServer.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

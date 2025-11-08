@@ -9,24 +9,24 @@ using System.Linq;
 namespace ServerExtension.Services
 {
 	public class ReqService : IReqService {
-        public IChangeCityInfoResponse ChangeCityInfo(SessionContext sessionContext, IChangeCityInfoRequest data)
-        {
-            var card = sessionContext.ObjectContext.GetObject<Document>(data.DocumentId);
-            IBaseUniversalService baseUniversalService = sessionContext.ObjectContext.GetService<IBaseUniversalService>();
+        //public IChangeCityInfoResponse ChangeCityInfo(SessionContext sessionContext, IChangeCityInfoRequest data)
+        //{
+        //    var card = sessionContext.ObjectContext.GetObject<Document>(data.DocumentId);
+        //    IBaseUniversalService baseUniversalService = sessionContext.ObjectContext.GetService<IBaseUniversalService>();
 
            
-            var cityNode = baseUniversalService.FindItemTypeWithSameName("Города", null);
-            var city = baseUniversalService.FindItemWithSameName(data.City, cityNode);
-            card.MainInfo["City"] = city;
+        //    var cityNode = baseUniversalService.FindItemTypeWithSameName("Города", null);
+        //    var city = baseUniversalService.FindItemWithSameName(data.City, cityNode);
+        //    card.MainInfo["City"] = city;
 
-            double money = (double)city.GetValue("daily");
-            card.MainInfo["AmountTrips"] = money * data.DaysCount;
+        //    double money = (double)city.GetValue("daily");
+        //    card.MainInfo["AmountTrips"] = money * data.DaysCount;
 
-            sessionContext.ObjectContext.SaveObject(card);
-            sessionContext.ObjectContext.AcceptChanges();
+        //    sessionContext.ObjectContext.SaveObject(card);
+        //    sessionContext.ObjectContext.AcceptChanges();
 
-            return new IChangeCityInfoResponse { AmountMoney = money * data.DaysCount};
-        }
+        //    return new IChangeCityInfoResponse { AmountMoney = money * data.DaysCount};
+        //}
 
         public bool ChangeDirPhoneInfo(SessionContext sessionContext, IChangeDirPhoneInfoRequest data)
         {
@@ -43,7 +43,7 @@ namespace ServerExtension.Services
 
             return true;
         }
-
+        
         public string GetReqName(SessionContext sessionContext, Guid cardId) {
 			var card = sessionContext.ObjectContext.GetObject<Document>(cardId) ?? throw new ArgumentException("Error", nameof(cardId));
 

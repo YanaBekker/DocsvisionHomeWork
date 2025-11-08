@@ -51,6 +51,58 @@
           }
         }
       },
+      "DocsVision.Approval.WebClient/6.1.716": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "DocsVision.ApprovalDesigner.ObjectModel": "6.1.105",
+          "DocsVision.BackOffice.ObjectModel": "6.1.223",
+          "DocsVision.BackOffice.WebClient": "6.1.716",
+          "DocsVision.PDFsharp": "6.1.0",
+          "DocsVision.Platform": "6.1.374",
+          "DocsVision.Platform.Authentication": "6.1.374",
+          "DocsVision.Platform.ObjectManager.Rest": "6.1.374",
+          "DocsVision.Platform.ObjectModel": "6.1.374",
+          "DocsVision.Platform.WebClient": "6.1.716",
+          "DocsVision.Workflow.Runtime": "6.1.113",
+          "Docsvision.Configuration": "6.1.82",
+          "Docsvision.LdapConnector": "6.1.82",
+          "HarfBuzzSharp.NativeAssets.Linux": "2.8.2.3",
+          "HtmlSanitizer": "8.0.723",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
+          "NLog": "5.1.1",
+          "Newtonsoft.Json": "13.0.1",
+          "QuestPDF": "2022.12.1",
+          "SixLabors.ImageSharp": "2.1.7",
+          "SkiaSharp.NativeAssets.Linux": "2.88.3",
+          "Svg.Skia": "0.5.18",
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Diagnostics.PerformanceCounter": "6.0.1",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Management": "7.0.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0"
+        },
+        "compile": {
+          "lib/net6.0/DocsVision.Approval.WebClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
       "DocsVision.ApprovalDesigner.ObjectModel/6.1.105": {
         "type": "package",
         "dependencies": {
@@ -274,6 +326,67 @@
         },
         "runtime": {
           "lib/net6.0/_._": {}
+        }
+      },
+      "DocsVision.Layout.WebClient/6.1.716": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "DocsVision.Approval.WebClient": "6.1.716",
+          "DocsVision.ApprovalDesigner.ObjectModel": "6.1.105",
+          "DocsVision.BackOffice.ObjectModel": "6.1.223",
+          "DocsVision.BackOffice.WebClient": "6.1.716",
+          "DocsVision.PDFsharp": "6.1.0",
+          "DocsVision.Platform": "6.1.374",
+          "DocsVision.Platform.Authentication": "6.1.374",
+          "DocsVision.Platform.ObjectManager.Rest": "6.1.374",
+          "DocsVision.Platform.ObjectModel": "6.1.374",
+          "DocsVision.Platform.WebClient": "6.1.716",
+          "DocsVision.WebClient.Extensibility": "6.1.716",
+          "DocsVision.WebClientLibrary.ObjectModel": "6.1.716",
+          "DocsVision.WebFrame.WebClient": "6.1.716",
+          "DocsVision.Workflow.Runtime": "6.1.113",
+          "Docsvision.Configuration": "6.1.82",
+          "Docsvision.LdapConnector": "6.1.82",
+          "HarfBuzzSharp.NativeAssets.Linux": "2.8.2.3",
+          "HtmlSanitizer": "8.0.723",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.AspNetCore.Mvc.Razor": "2.2.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.2.0",
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyModel": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
+          "NLog": "5.1.1",
+          "Newtonsoft.Json": "13.0.1",
+          "QuestPDF": "2022.12.1",
+          "SixLabors.ImageSharp": "2.1.7",
+          "SkiaSharp.NativeAssets.Linux": "2.88.3",
+          "Svg.Skia": "0.5.18",
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Diagnostics.PerformanceCounter": "6.0.1",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Management": "7.0.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0"
+        },
+        "compile": {
+          "lib/net6.0/DocsVision.Layout.WebClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/_._": {
+            "related": ".xml"
+          }
         }
       },
       "DocsVision.LdapConnector/6.1.82": {
@@ -974,6 +1087,23 @@
             "codeLanguage": "any",
             "copyToOutput": false
           }
+        }
+      },
+      "DocsVision.Workflow.Runtime/6.1.113": {
+        "type": "package",
+        "dependencies": {
+          "DocsVision.Configuration": "6.1.82",
+          "DocsVision.Platform.SystemCards.ObjectModel": "6.1.374",
+          "DocsVision.Workflow.Objects": "6.1.113",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "System.Security.Cryptography.ProtectedData": "6.0.0",
+          "System.ServiceModel.Primitives": "4.10.0"
+        },
+        "compile": {
+          "lib/net6.0/DocsVision.Workflow.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
         }
       },
       "DocumentFormat.OpenXml/2.16.0": {
@@ -4972,6 +5102,22 @@
         "lib/netstandard2.1/Autofac.xml"
       ]
     },
+    "DocsVision.Approval.WebClient/6.1.716": {
+      "sha512": "yahVna5bCM5ykN7uWvIefNuEvsduSo8xHuj7rJMQ7Fg1u6qxxGasd/YDiy/dxxBJYyB/MaAyjEGXPmphzY1cZQ==",
+      "type": "package",
+      "path": "docsvision.approval.webclient/6.1.716",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.txt",
+        "docsvision.approval.webclient.6.1.716.nupkg.sha512",
+        "docsvision.approval.webclient.nuspec",
+        "lib/net6.0/DocsVision.Approval.WebClient.dll",
+        "lib/net6.0/DocsVision.Approval.WebClient.xml",
+        "lib/net6.0/kk/DocsVision.Approval.WebClient.resources.dll",
+        "lib/net6.0/lv/DocsVision.Approval.WebClient.resources.dll",
+        "lib/net6.0/ru/DocsVision.Approval.WebClient.resources.dll"
+      ]
+    },
     "DocsVision.ApprovalDesigner.ObjectModel/6.1.105": {
       "sha512": "G4TpEl+5bWU7JqhULBUWSsdUgTXb+/SKKMHNagmD6u9RSnz6eR9731oDpXvN9G9Xezq2XbAAnXgxdfMaAor4PA==",
       "type": "package",
@@ -5111,6 +5257,23 @@
         "docsvision.documentsmanagement.objectmodel.nuspec",
         "lib/net6.0/DocsVision.DocumentsManagement.ObjectModel.dll",
         "lib/net6.0/ru/DocsVision.DocumentsManagement.ObjectModel.resources.dll"
+      ]
+    },
+    "DocsVision.Layout.WebClient/6.1.716": {
+      "sha512": "Jf+IRXbxZKWFtKWihccAHOkWmvLVFQKYDxhG70bFeGs8IQHPow7yYFJAy8fc5/9j27mR9h8vdJ6oQ7r5wGjYvQ==",
+      "type": "package",
+      "path": "docsvision.layout.webclient/6.1.716",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.txt",
+        "docsvision.layout.webclient.6.1.716.nupkg.sha512",
+        "docsvision.layout.webclient.nuspec",
+        "lib/net6.0/DocsVision.Layout.WebClient.dll",
+        "lib/net6.0/DocsVision.Layout.WebClient.xml",
+        "lib/net6.0/kk/DocsVision.Layout.WebClient.resources.dll",
+        "lib/net6.0/lv/DocsVision.Layout.WebClient.resources.dll",
+        "lib/net6.0/ru/DocsVision.Layout.WebClient.resources.dll",
+        "lib/net6.0/uk/DocsVision.Layout.WebClient.resources.dll"
       ]
     },
     "DocsVision.LdapConnector/6.1.82": {
@@ -5506,6 +5669,22 @@
         "lib/net6.0/lv/DocsVision.Workflow.Objects.resources.dll",
         "lib/net6.0/ru/DocsVision.Workflow.Objects.resources.dll",
         "lib/net6.0/uk/DocsVision.Workflow.Objects.resources.dll"
+      ]
+    },
+    "DocsVision.Workflow.Runtime/6.1.113": {
+      "sha512": "FzKo8UVAN+6bDuVHxiFjfKXVzkC5tCktJBr0ip4bxdw/UN4cqKpEP3pe5N0CpvuKUpTgs/X829Sbd8Q4BGKikw==",
+      "type": "package",
+      "path": "docsvision.workflow.runtime/6.1.113",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.txt",
+        "docsvision.workflow.runtime.6.1.113.nupkg.sha512",
+        "docsvision.workflow.runtime.nuspec",
+        "lib/net6.0/DocsVision.Workflow.Runtime.dll",
+        "lib/net6.0/kk/DocsVision.Workflow.Runtime.resources.dll",
+        "lib/net6.0/lv/DocsVision.Workflow.Runtime.resources.dll",
+        "lib/net6.0/ru/DocsVision.Workflow.Runtime.resources.dll",
+        "lib/net6.0/uk/DocsVision.Workflow.Runtime.resources.dll"
       ]
     },
     "DocumentFormat.OpenXml/2.16.0": {
@@ -12767,6 +12946,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "DocsVision.BackOffice.ObjectModel >= 6.1.269",
+      "DocsVision.Layout.WebClient >= 6.1.716",
       "DocsVision.Platform.ObjectManager.Rest >= 6.1.525",
       "DocsVision.Platform.WebClient >= 6.1.716",
       "DocsVision.WebClient.Extensibility >= 6.1.716",
@@ -12782,9 +12962,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\TemplateServerExtension.csproj",
+      "projectUniqueName": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\MyServerExtension.csproj",
       "projectName": "ServerExtension",
-      "projectPath": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\TemplateServerExtension.csproj",
+      "projectPath": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\MyServerExtension.csproj",
       "packagesPath": "C:\\Users\\yanal\\.nuget\\packages\\",
       "outputPath": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\obj\\",
       "projectStyle": "PackageReference",
@@ -12792,6 +12972,7 @@
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "D:\\Desktop\\DocsvisionHomeWork\\NuGet.Config",
         "C:\\Users\\yanal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -12800,7 +12981,6 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://packages.docsvision.com/nuget/docsvision/index.json": {}
       },
@@ -12830,6 +13010,11 @@
             "include": "Compile",
             "target": "Package",
             "version": "[6.1.269, )"
+          },
+          "DocsVision.Layout.WebClient": {
+            "include": "Compile",
+            "target": "Package",
+            "version": "[6.1.716, )"
           },
           "DocsVision.Platform.ObjectManager.Rest": {
             "include": "Compile",
