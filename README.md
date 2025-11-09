@@ -7,3 +7,5 @@ MyServerExtension - серверная часть Web-client
 MyWebExtension - клиентская часть Web-client
 
 ServerCreateCard - решение по созданию карточек 
+
+hw9.sql - скрипт по домашней работе по 9 лекции, содержит представление и задачу со *
