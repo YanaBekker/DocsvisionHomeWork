@@ -4,16 +4,28 @@
 		private static readonly Random random = new Random();
 
 		public static readonly string[] EmployeeAccountNames = {
-			"ENGINEER\\DVAdmin",
-			"ENGINEER\\admin",
-			"ENGINEER\\v.kuznesov",
-			"ENGINEER\\k.semenov",
-			"ENGINEER\\s.kolesnikova",
-			"ENGINEER\\a.ivanov",
-			"ENGINEER\\s.mihailov",
-			"ENGINEER\\i.lebedev",
-			"ENGINEER\\s.petrova",
-			"ENGINEER\\p.samoilov"
+
+			// микоян
+			//"ENGINEER\\DVAdmin",
+			//"ENGINEER\\admin",
+			//"ENGINEER\\v.kuznesov",
+			//"ENGINEER\\k.semenov",
+			//"ENGINEER\\s.kolesnikova",
+			//"ENGINEER\\a.ivanov",
+			//"ENGINEER\\s.mihailov",
+			//"ENGINEER\\i.lebedev",
+			//"ENGINEER\\s.petrova",
+			//"ENGINEER\\p.samoilov"
+
+			// самсон
+			"ENGINEER\\v.smirnov",
+			"ENGINEER\\v.soloveva",
+			"ENGINEER\\g.volkov",
+			"ENGINEER\\d.burov",
+			"ENGINEER\\d.korolov",
+			"ENGINEER\\d.goncharov",
+			"ENGINEER\\e.ivanova",
+			"ENGINEER\\e.popova"
 		};
 
 		public static readonly string[] CardsName = {

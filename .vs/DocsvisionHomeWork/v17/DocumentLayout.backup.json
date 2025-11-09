@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\Desktop\\DocsvisionHomeWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\datagridplugins\\myplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\datagridplugins\\myplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\controllers\\reqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\controllers\\reqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\services\\reqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\services\\reqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}|MySE\\MySE.csproj|d:\\desktop\\docsvisionhomework\\myse\\se.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}|MySE\\MySE.csproj|solutionrelative:myse\\se.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\cardlifecycle\\mainlifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\datagridplugins\\myplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\datagridplugins\\myplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}|MySE\\MySE.csproj|d:\\desktop\\docsvisionhomework\\myse\\se.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}|MySE\\MySE.csproj|solutionrelative:myse\\se.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}|MySE\\MySE.csproj|d:\\desktop\\docsvisionhomework\\myse\\myse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\myserverextension.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\myserverextension.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,49 +50,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReqController.cs",
+              "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Controllers\\ReqController.cs",
+              "RelativeDocumentMoniker": "MyServerExtension\\Controllers\\ReqController.cs",
+              "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Controllers\\ReqController.cs",
+              "RelativeToolTip": "MyServerExtension\\Controllers\\ReqController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:20:21.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TestData.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
               "RelativeDocumentMoniker": "ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
               "RelativeToolTip": "ServerCreateCard\\IntroductionToSDK.App\\TestData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T08:58:16.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
               "RelativeDocumentMoniker": "ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
               "RelativeToolTip": "ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAewGgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T08:46:51.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ReqService.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Services\\ReqService.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\Services\\ReqService.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Services\\ReqService.cs",
               "RelativeToolTip": "MyServerExtension\\Services\\ReqService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwC0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T20:08:46.508Z"
+              "WhenOpened": "2025-11-07T20:08:46.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SE.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MySE\\SE.cs",
               "RelativeDocumentMoniker": "MySE\\SE.cs",
@@ -100,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MySE.csproj",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MySE\\MySE.csproj",
               "RelativeDocumentMoniker": "MySE\\MySE.csproj",
@@ -112,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MyServerExtension.csproj",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\MyServerExtension.csproj",
               "RelativeDocumentMoniker": "MyServerExtension\\MyServerExtension.csproj",
@@ -124,39 +142,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainLifeCycle.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
               "RelativeToolTip": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:37:53.363Z"
+              "WhenOpened": "2025-11-07T18:37:53.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "ServerExtension.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\ServerExtension.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\ServerExtension.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\ServerExtension.cs",
               "RelativeToolTip": "MyServerExtension\\ServerExtension.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:35:23.839Z"
+              "WhenOpened": "2025-11-07T18:35:23.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MyPlugin.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\DataGridPlugins\\MyPlugin.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\DataGridPlugins\\MyPlugin.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\DataGridPlugins\\MyPlugin.cs",
               "RelativeToolTip": "MyServerExtension\\DataGridPlugins\\MyPlugin.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAYwAMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:01:19.955Z"
+              "WhenOpened": "2025-11-07T17:01:19.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
