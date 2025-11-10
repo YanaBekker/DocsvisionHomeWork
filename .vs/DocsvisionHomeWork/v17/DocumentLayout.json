@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Desktop\\DocsvisionHomeWork\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}|MySE\\MySE.csproj|d:\\desktop\\docsvisionhomework\\myse\\se.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}|MySE\\MySE.csproj|solutionrelative:myse\\se.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|solutionrelative:myserverextension\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|d:\\desktop\\docsvisionhomework\\servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3592305D-61AB-B9B0-13C4-BDD8B5A7E544}|ServerCreateCard\\IntroductionToSDK.App\\ServerCreateCard.csproj|solutionrelative:servercreatecard\\introductiontosdk.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B15C9CB7-760B-82B9-8C1C-2EBAA5B20B21}|MyServerExtension\\MyServerExtension.csproj|d:\\desktop\\docsvisionhomework\\myserverextension\\datagridplugins\\myplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ReqController.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Controllers\\ReqController.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\Controllers\\ReqController.cs",
@@ -78,19 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
               "RelativeDocumentMoniker": "ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
               "ToolTip": "D:\\Desktop\\DocsvisionHomeWork\\ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
               "RelativeToolTip": "ServerCreateCard\\IntroductionToSDK.App\\Program.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAuwGgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T08:46:51.942Z"
+              "WhenOpened": "2025-11-08T08:46:51.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReqService.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\Services\\ReqService.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\Services\\ReqService.cs",
@@ -102,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SE.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MySE\\SE.cs",
               "RelativeDocumentMoniker": "MySE\\SE.cs",
@@ -110,8 +115,7 @@
               "RelativeToolTip": "MySE\\SE.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:51:02.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T18:51:02.114Z"
             },
             {
               "$type": "Document",
@@ -139,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLifeCycle.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
@@ -147,12 +151,11 @@
               "RelativeToolTip": "MyServerExtension\\CardLifeCycle\\MainLifeCycle.cs",
               "ViewState": "AgIAACUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:37:53.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T18:37:53.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ServerExtension.cs",
               "DocumentMoniker": "D:\\Desktop\\DocsvisionHomeWork\\MyServerExtension\\ServerExtension.cs",
               "RelativeDocumentMoniker": "MyServerExtension\\ServerExtension.cs",
@@ -173,10 +176,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T17:01:19.955Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             }
           ]
         }

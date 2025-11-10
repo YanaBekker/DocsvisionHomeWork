@@ -21,7 +21,7 @@ namespace IntroductionToSDK {
 			try {
 				session = sessionManager.CreateSession();
 				var context = CreateContext(session);
-				CreateMultipleBusinessTripRequests(session, context, 100);
+				CreateMultipleBusinessTripRequests(session, context, 1000);
 				//CreateBusinessTripRequest(session, context);
 				Console.WriteLine("Press any key to continue...");
 				Console.ReadKey();
