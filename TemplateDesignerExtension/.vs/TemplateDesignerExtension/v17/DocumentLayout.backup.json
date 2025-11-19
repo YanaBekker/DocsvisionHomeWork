@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\TemplateDesignerExtension\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CE40E2-DD2C-3331-D7D9-1F362D1F11BD}|TemplateDesignerExtension.csproj|d:\\desktop\\templatedesignerextension\\designerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CE40E2-DD2C-3331-D7D9-1F362D1F11BD}|TemplateDesignerExtension.csproj|solutionrelative:designerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CE40E2-DD2C-3331-D7D9-1F362D1F11BD}|TemplateDesignerExtension.csproj|d:\\desktop\\templatedesignerextension\\templatedesignerextension.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2CE40E2-DD2C-3331-D7D9-1F362D1F11BD}|TemplateDesignerExtension.csproj|solutionrelative:templatedesignerextension.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CE40E2-DD2C-3331-D7D9-1F362D1F11BD}|TemplateDesignerExtension.csproj|d:\\desktop\\templatedesignerextension\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CE40E2-DD2C-3331-D7D9-1F362D1F11BD}|TemplateDesignerExtension.csproj|solutionrelative:constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TemplateDesignerExtension",
+              "DocumentMoniker": "D:\\Desktop\\TemplateDesignerExtension\\TemplateDesignerExtension.csproj",
+              "RelativeDocumentMoniker": "TemplateDesignerExtension.csproj",
+              "ToolTip": "D:\\Desktop\\TemplateDesignerExtension\\TemplateDesignerExtension.csproj",
+              "RelativeToolTip": "TemplateDesignerExtension.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-17T15:48:04.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DesignerExtension.cs",
+              "DocumentMoniker": "D:\\Desktop\\TemplateDesignerExtension\\DesignerExtension.cs",
+              "RelativeDocumentMoniker": "DesignerExtension.cs",
+              "ToolTip": "D:\\Desktop\\TemplateDesignerExtension\\DesignerExtension.cs",
+              "RelativeToolTip": "DesignerExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:47:58.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\Desktop\\TemplateDesignerExtension\\Constants.cs",
+              "RelativeDocumentMoniker": "Constants.cs",
+              "ToolTip": "D:\\Desktop\\TemplateDesignerExtension\\Constants.cs",
+              "RelativeToolTip": "Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:47:56.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

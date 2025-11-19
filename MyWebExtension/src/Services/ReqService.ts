@@ -4,6 +4,8 @@ import { ChangeDirPhoneInfoRequest } from "../Models/IChangeDirPhoneInfoRequest"
 import { IReqService } from "./Interfaces/IReqService";
 import { IChangeCityInfoRequest } from "../Models/IChangeCityInfoRequest";
 import { IChangeCityInfoResponse } from "../Models/IChangeCityInfoResponse";
+import { FlightDataRequest } from "../Models/IFlightDataRequest";
+import { ApiResponse } from "../Models/IApiResponse";
 
 export class ReqService extends ControllerBase implements IReqService {
     protected controllerName: string = "Req";
@@ -36,6 +38,17 @@ export class ReqService extends ControllerBase implements IReqService {
         return super.doRequest({
             controller: this.controllerName,
             action: 'ChangeDirPhoneInfo',
+            isApi: true,
+            method: HttpMethods.Post,
+            data: request,
+            options: { isShowOverlay: true }
+        })
+    }
+
+    GetCheapTickets(request: FlightDataRequest): Promise<ApiResponse> {
+        return super.doRequest({
+            controller: this.controllerName,
+            action: 'GetCheapTickets',
             isApi: true,
             method: HttpMethods.Post,
             data: request,

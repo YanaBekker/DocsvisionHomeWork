@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServerExtension", "MyServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySE", "MySE\MySE.csproj", "{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDesignerExtension", "TemplateDesignerExtension\TemplateDesignerExtension.csproj", "{D07F3C8C-D065-1CA2-D380-4E2C52CE8C2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{066CF7AA-2222-4CA9-A46F-5D917DFF92E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07F3C8C-D065-1CA2-D380-4E2C52CE8C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07F3C8C-D065-1CA2-D380-4E2C52CE8C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07F3C8C-D065-1CA2-D380-4E2C52CE8C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07F3C8C-D065-1CA2-D380-4E2C52CE8C2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

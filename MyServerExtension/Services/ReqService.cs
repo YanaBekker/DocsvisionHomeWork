@@ -1,10 +1,14 @@
-﻿using DocsVision.BackOffice.CardLib.CardDefs;
+﻿using AngleSharp.Io;
+using DocsVision.BackOffice.CardLib.CardDefs;
 using DocsVision.BackOffice.ObjectModel;
 using DocsVision.BackOffice.ObjectModel.Services;
+using DocsVision.Platform.ObjectManager;
 using DocsVision.Platform.WebClient;
+using Newtonsoft.Json.Linq;
 using ServerExtension.Models;
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace ServerExtension.Services
 {
@@ -49,6 +53,45 @@ namespace ServerExtension.Services
 
 			return card.MainInfo[CardDocument.MainInfo.Content] as string;
 		}
+
+        public ApiResponse GetCheapTickets(SessionContext sessionContext, IFlightDataRequest data)
+        {
+            try
+            {
+                ExtensionManager extensionManager = sessionContext.Session.ExtensionManager;
+                ExtensionMethod getReqComInfo = extensionManager.GetExtensionMethod("ES25_SE", "GetCheapTickets");
+
+                IBaseUniversalService universalSvc = sessionContext.ObjectContext.GetService<IBaseUniversalService>();
+
+                var cityNode = universalSvc.FindItemTypeWithSameName("Город", null);
+                var strCity = universalSvc.FindItemWithSameName(data.City, cityNode);
+                var iata_code = (string)strCity.ItemCard.MainInfo["airportCode"];
+
+                getReqComInfo.Parameters.AddNew("iata_code", ParameterValueType.String, iata_code);
+                getReqComInfo.Parameters.AddNew("departure_at", ParameterValueType.String, data.Departure_at);
+                getReqComInfo.Parameters.AddNew("return_at", ParameterValueType.String, data.Return_At);
+
+                var result = getReqComInfo.Execute();
+
+                if (result is Newtonsoft.Json.Linq.JObject jObject)
+                {
+                    string jsonString = jObject.ToString();
+                    var apiResponse = Newtonsoft.Json.JsonConvert.DeserializeObject<ApiResponse>(jsonString);
+
+                    return apiResponse;
+                }
+                else
+                {
+                    DocsVision.Platform.WebClient.Diagnostics.Trace.TraceError($"\n\n\n\n Unexpected result type: {result?.GetType()}\n\n");
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                DocsVision.Platform.WebClient.Diagnostics.Trace.TraceError($"{ex.Message}\n{ex.StackTrace}");
+                return null;
+            }
+        }
 
         public void InitReq(SessionContext sessionContext, Guid cardId)
         {

@@ -9,7 +9,6 @@ D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\MySE.dll
 D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\MySE.pdb
 D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\DocsVision.Platform.StorageServer.Data.dll
 D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\DocsVision.Platform.StorageServer.Runtime.dll
-D:\Desktop\DocsvisionHomeWork\MySE\bin\Debug\net6.0\DocsVision.Platform.StorageServer.dll
 D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.csproj.Up2Date
 D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\MySE.dll
 D:\Desktop\DocsvisionHomeWork\MySE\obj\Debug\net6.0\refint\MySE.dll

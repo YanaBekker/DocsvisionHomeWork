@@ -23,6 +23,23 @@ namespace MySE
                 return dataTable;
             }
         }
+        [ExtensionMethod]
+        public ApiResponse GetCheapTickets(string iata_code, string departure_at, string return_at)
+        {
+            string token = "b165d8c4be5500d4da61df5067fd34ad";
+            var apiClient = new AviasalesApiClient(token);
 
+            var response = apiClient.GetCheapestFlights(
+                origin: "LED",
+                destination: iata_code,
+                departureAt: departure_at,
+                returnAt: return_at,
+                currency: "rub",
+                limit: 10
+            );
+          
+            return response;
+
+        }
     }
 }

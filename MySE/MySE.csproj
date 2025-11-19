@@ -11,6 +11,7 @@
 	</PropertyGroup>
 
   <ItemGroup>
+	<PackageReference Include="DocsVision.Platform.WebClient" Version="6.1.716" />
     <Reference Include="DocsVision.Platform.StorageServer">
       <HintPath>..\..\DocsVision.Platform.StorageServer.dll</HintPath>
     </Reference>

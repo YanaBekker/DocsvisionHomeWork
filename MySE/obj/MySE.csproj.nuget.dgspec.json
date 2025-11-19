@@ -50,6 +50,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "DocsVision.Platform.WebClient": {
+              "target": "Package",
+              "version": "[6.1.716, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

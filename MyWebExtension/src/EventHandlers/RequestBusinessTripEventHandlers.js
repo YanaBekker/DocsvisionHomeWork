@@ -110,6 +110,9 @@ export function ddRequestTrip_action1_onClick(sender) {
         });
     });
 }
+//export async function ddRequestTrip_getСheapTickets_onClick(sender: CustomButton) {
+//    new RequestBusinessTripLogic().GetСheapTickets(sender.layout);
+//}
 //export async function ddRequestTrip_ChangeDirPhoneInfo_onDateChanged(sender: CustomButton) {
 //    new RequestBusinessTripLogic().ChangeDirPhoneInfo(sender.layout);
 //}

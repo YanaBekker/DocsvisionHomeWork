@@ -17,6 +17,7 @@ import { $ReqService } from "../Services/Interfaces/IReqService";
 import { Params } from "@docsvision/webclient/BackOffice/ChildTasksPerforming";
 
 export class RequestBusinessTripLogic {
+  
 
     /**
      * Проверяет возможность сохранения карточки для поля основание для поездки
@@ -118,6 +119,17 @@ export class RequestBusinessTripLogic {
         const response = await layout.getService($ReqService).GetReqName(layout.cardInfo.id);
         layout.getService($MessageBox).showInfo(response);
     }
+
+    //async GetСheapTickets(layout: Layout) {
+    //    const result = await layout.getService($ReqService).GetСheapTickets({
+    //        city: "Москва",
+    //        departure_at: "2025-11",
+    //        return_at: "2025-12"
+    //    });
+
+    //    // потмо сюда потсавить брейкпоинт для проверки что вернулось
+    //    const city = layout.controls.tryGet<DirectoryDesignerRow>("city").params.value?.name || "Не указано";
+    //}
 
     //async ChangeDirPhoneInfo(layout: Layout) {
     //    const commander = layout.controls.tryGet<(StaffDirectoryItems)>("commander");

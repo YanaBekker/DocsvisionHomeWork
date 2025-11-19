@@ -33,6 +33,14 @@ namespace ServerExtension.Controllers
             return CommonResponse.CreateSuccess(result);
         }
 
+        [HttpPost]
+        public CommonResponse<ApiResponse> GetCheapTickets([FromBody] IFlightDataRequest data)
+        {
+            var sessionContext = contextProvider.GetOrCreateCurrentSessionContext();
+            var result = reqService.GetCheapTickets(sessionContext, data);
+            return CommonResponse.CreateSuccess(result);
+        }
+
         //[HttpPost]
         //public CommonResponse<IChangeCityInfoResponse> ChangeCityInfo([FromBody] IChangeCityInfoRequest data)
         //{
